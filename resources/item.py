@@ -14,7 +14,7 @@ from schemas import (
     StoreSchema,
 )
 
-iblp = Blueprint("items", __name__, description="Item operation")
+iblp = Blueprint("Items", __name__, description="Item operation")
 
 
 @iblp.route("/item/<int:id>")
