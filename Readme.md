@@ -16,3 +16,8 @@
 
 #### Swagger ui endpoint
 ```/swagger-ui```
+
+#### Below are steps to build local docker image and push to local docker registry
+``` docker build -t localhost:5000/flask-store-app:latest . ```
+
+``` docker push localhost:5000/flask-store-app:latest ```
